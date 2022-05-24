@@ -6,7 +6,7 @@ A project for MUSI 4545- Computer applications in Music: Designing audio effect 
 ## Installation
 
 To test out the VST, simply download the VST3 file inlcuded in the root folder. 
-Store the VST with your others, or in an area you will remember.
+Store the VST with your others, or in a folder of your choice.
 Open your DAW of choice and scan the folder for your new VST.
 Happy EQing!
 
