@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="sf7QQ6" name="EQupid_Revamped" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginManufacturerCode="Mu45" pluginManufacturer="Musi45" pluginFormats="buildVST3">
+  <MAINGROUP id="k326L5" name="EQupid_Revamped">
+    <GROUP id="{341F631E-5396-B3D6-0696-AD8E53A18F02}" name="Mu45FilterCalc">
+      <FILE id="J0NnHP" name="Mu45FilterCalc.cpp" compile="1" resource="0"
+            file="Source/Mu45FilterCalc/Mu45FilterCalc.cpp"/>
+      <FILE id="NNsPVO" name="Mu45FilterCalc.h" compile="0" resource="0"
+            file="Source/Mu45FilterCalc/Mu45FilterCalc.h"/>
+    </GROUP>
+    <GROUP id="{F25FB724-05C4-A5A1-AA2D-3C6723ACA1BD}" name="Source"/>
+    <GROUP id="{CFAB346B-A38C-5239-3713-9F9F6760A55A}" name="StkLite-4.6.1">
+      <FILE id="qqE8Ei" name="BiQuad.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/BiQuad.cpp"/>
+      <FILE id="AEHbmX" name="BiQuad.h" compile="0" resource="0" file="Source/StkLite-4.6.1/BiQuad.h"/>
+      <FILE id="Sxqvga" name="Delay.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/Delay.cpp"/>
+      <FILE id="MD2gIa" name="Delay.h" compile="0" resource="0" file="Source/StkLite-4.6.1/Delay.h"/>
+      <FILE id="bSNg3e" name="DelayA.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/DelayA.cpp"/>
+      <FILE id="j5wtTX" name="DelayA.h" compile="0" resource="0" file="Source/StkLite-4.6.1/DelayA.h"/>
+      <FILE id="XRIU2r" name="DelayL.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/DelayL.cpp"/>
+      <FILE id="aqJHmn" name="DelayL.h" compile="0" resource="0" file="Source/StkLite-4.6.1/DelayL.h"/>
+      <FILE id="tzytLm" name="Filter.h" compile="0" resource="0" file="Source/StkLite-4.6.1/Filter.h"/>
+      <FILE id="alltjV" name="Fir.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/Fir.cpp"/>
+      <FILE id="oiMyzr" name="Fir.h" compile="0" resource="0" file="Source/StkLite-4.6.1/Fir.h"/>
+      <FILE id="CcIuXz" name="FormSwep.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/FormSwep.cpp"/>
+      <FILE id="ueDVBN" name="FormSwep.h" compile="0" resource="0" file="Source/StkLite-4.6.1/FormSwep.h"/>
+      <FILE id="C3ZvBd" name="Iir.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/Iir.cpp"/>
+      <FILE id="MZDjVG" name="Iir.h" compile="0" resource="0" file="Source/StkLite-4.6.1/Iir.h"/>
+      <FILE id="AtvbA9" name="OnePole.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/OnePole.cpp"/>
+      <FILE id="stmvQa" name="OnePole.h" compile="0" resource="0" file="Source/StkLite-4.6.1/OnePole.h"/>
+      <FILE id="y7qrUq" name="OneZero.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/OneZero.cpp"/>
+      <FILE id="r2KiMK" name="OneZero.h" compile="0" resource="0" file="Source/StkLite-4.6.1/OneZero.h"/>
+      <FILE id="Q3rx8d" name="PoleZero.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/PoleZero.cpp"/>
+      <FILE id="Cz3LyT" name="PoleZero.h" compile="0" resource="0" file="Source/StkLite-4.6.1/PoleZero.h"/>
+      <FILE id="M1cdLI" name="Stk.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/Stk.cpp"/>
+      <FILE id="RHoVMg" name="Stk.h" compile="0" resource="0" file="Source/StkLite-4.6.1/Stk.h"/>
+      <FILE id="jBCKtK" name="TapDelay.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/TapDelay.cpp"/>
+      <FILE id="q4h8C2" name="TapDelay.h" compile="0" resource="0" file="Source/StkLite-4.6.1/TapDelay.h"/>
+      <FILE id="pnWZ9S" name="TwoPole.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/TwoPole.cpp"/>
+      <FILE id="UKvcsS" name="TwoPole.h" compile="0" resource="0" file="Source/StkLite-4.6.1/TwoPole.h"/>
+      <FILE id="sK2PRG" name="TwoZero.cpp" compile="1" resource="0" file="Source/StkLite-4.6.1/TwoZero.cpp"/>
+      <FILE id="T0MEDg" name="TwoZero.h" compile="0" resource="0" file="Source/StkLite-4.6.1/TwoZero.h"/>
+    </GROUP>
+    <FILE id="v3C6r8" name="Band.cpp" compile="1" resource="0" file="Source/Band.cpp"/>
+    <FILE id="Z2rh3V" name="Band.h" compile="0" resource="0" file="Source/Band.h"/>
+    <FILE id="V4HJbY" name="EqupidLogo.svg" compile="0" resource="1" file="Source/EqupidLogo.svg"/>
+    <FILE id="bsSHNq" name="Gerald_G_Celtic_Harp_1.svg" compile="0" resource="1"
+          file="Source/Gerald_G_Celtic_Harp_1.svg"/>
+    <FILE id="Wr4lxA" name="PluginEditor.cpp" compile="1" resource="0"
+          file="Source/PluginEditor.cpp"/>
+    <FILE id="u0f8Dw" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    <FILE id="tpjBKM" name="PluginProcessor.cpp" compile="1" resource="0"
+          file="Source/PluginProcessor.cpp"/>
+    <FILE id="RRsTrM" name="PluginProcessor.h" compile="0" resource="0"
+          file="Source/PluginProcessor.h"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="EQupid_Revamped"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="EQupid_Revamped"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../juce-6.1.0-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../juce-6.1.0-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
